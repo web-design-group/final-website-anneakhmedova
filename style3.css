@@ -1,0 +1,172 @@
+@font-face { font-family: 'LOGO'; src: url('fonts/ofont.ru_ObitaemOstrov.woff') format('woff') } 
+@font-face { font-family: 'NAME'; src: url('fonts/TypeWriter.woff') format('woff') } 
+@font-face { font-family: 'TEXT'; src: url('fonts/ofont.ru_Evolventa.woff') format('woff') } 
+.body {
+	background-color: black;
+}
+
+.div1 {
+	display: grid;
+	margin-left: 20%; 
+	margin-right: 20%;
+}
+
+.H1 {
+	color: #E9501D; 
+	font-family: LOGO; 
+	font-size: 70pt; 
+	margin: 0; 
+	text-indent: 0px;
+}
+
+.block0 {
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+	grid-auto-flow: row;
+	padding-bottom: 20px;
+}
+
+.article {
+	width: 100%; 
+	background-color: #212629; 
+	border-radius: 59px;
+}
+
+.text {
+	cursor: pointer;
+	border-radius: 9px;
+    color: black; 
+	font-family: TEXT; 
+	font-size: 15pt; 
+	margin: 0;
+	text-align: center;
+	padding: 10px;
+}
+
+.h {
+	color: white; 
+	font-family: TEXT; 
+	font-size: 20pt; 
+	margin: 0; 
+	text-align: justify; 
+	font-weight: bold;
+}
+
+p {
+	color: white; 
+	font-family: TEXT; 
+	font-size: 15pt; 
+	margin: 0; 
+	text-align: justify;
+}
+
+.hz {
+	color: white; 
+	font-family: NAME; 
+	font-size: 30pt; 
+	font-weight: bold;
+	margin: 0; 
+	text-indent: 25px; 	
+	padding-top: 20px; 
+	padding-bottom: 20px;
+}
+
+.pc {
+	color: white; 
+	font-family: TEXT; 
+	font-size: 15pt; 
+	margin: 0; 
+	text-align: justify;
+	padding-left: 70px; 
+	padding-right: 70px;
+}
+
+.f2 {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 1fr 1fr
+}
+
+.f0 {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 3fr 1fr;
+	padding-top: 30px;
+}
+
+img {
+	max-width: 500px; 
+	max-height: 400px;
+}
+ 
+.film {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 1fr 2fr;
+	padding-left: 20px; 
+	padding-right: 20px;
+	padding-bottom: 60px;
+}
+
+.text {
+	display: grid;
+	grid-auto-flow: row;
+	padding-left: 20px; 
+	padding-bottom: 20px;
+}
+
+.detail {
+    background:none;
+    border:none;
+	cursor: pointer;
+    color: white; 
+	font-family: TEXT; 
+	font-size: 15pt; 
+	margin: 0;
+	text-align: left;
+}
+.session {
+	cursor: pointer;
+	border-radius: 19px;
+    color: black; 
+	font-family: TEXT; 
+	font-size: 15pt; 
+	margin: 0;
+	text-align: center;
+}
+
+.textfooter {
+	color: #9D9D9C; 
+	font-family: TEXT; 
+	font-size: 15pt; 
+	margin: 0; 
+	text-align: left;
+}
+.schedule {
+	display: grid; 
+	grid-auto-flow: column;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	align-items: end;
+}
+
+.kl {
+	cursor: pointer;
+	border-radius: 9px;
+    color: black; 
+	font-family: TEXT; 
+	font-size: 13pt; 
+	margin: 0;
+	text-align: center;
+	padding: 7px;
+}
+
+.slider1 {
+	padding-left: 70px;
+}
+
+
+
+
+
+
