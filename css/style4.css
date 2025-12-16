@@ -1,0 +1,76 @@
+.slider2-container {
+    width: 350px; /* Ширина слайдера */
+    height: 250px; /* Высота слайдера */
+    overflow: hidden; /* Скрываем изображения, выходящие за границы контейнера */
+    position: relative; /* Необходим для позиционирования кнопок */
+}
+
+.slider2 {
+    display: flex; /* Размещаем изображения в ряд */
+    transition: transform 0.5s ease-in-out; /* Плавная анимация при переключении */
+}
+
+.slider2 img {
+    width: 500px; /* Ширина каждого изображения */
+    height: 300px; /* Высота каждого изображения */
+    object-fit: cover; /* Масштабируем изображение с сохранением пропорций и обрезкой */
+}
+
+.slider2-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Центрируем вертикально */
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10; /* Размещаем над изображениями */
+}
+
+.slider2-button-prev {
+    left: 10px;
+}
+
+.slider2-button-next {
+    right: 10px;
+}
+
+
+.slider3-container {
+    width: 350px; /* Ширина слайдера */
+    height: 250px; /* Высота слайдера */
+    overflow: hidden; /* Скрываем изображения, выходящие за границы контейнера */
+    position: relative; /* Необходим для позиционирования кнопок */
+}
+
+.slider3 {
+    display: flex; /* Размещаем изображения в ряд */
+    transition: transform 0.5s ease-in-out; /* Плавная анимация при переключении */
+}
+
+.slider3 img {
+    width: 500px; /* Ширина каждого изображения */
+    height: 300px; /* Высота каждого изображения */
+    object-fit: cover; /* Масштабируем изображение с сохранением пропорций и обрезкой */
+}
+
+.slider3-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Центрируем вертикально */
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10; /* Размещаем над изображениями */
+}
+
+.slider3-button-prev {
+    left: 10px;
+}
+
+.slider3-button-next {
+    right: 10px;
+}

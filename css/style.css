@@ -1,0 +1,56 @@
+@font-face { font-family: 'LOGO'; src: url('fonts/ofont.ru_ObitaemOstrov.woff') format('woff') } 
+@font-face { font-family: 'NAME'; src: url('fonts/TypeWriter.woff') format('woff') } 
+@font-face { font-family: 'TEXT'; src: url('fonts/ofont.ru_Evolventa.woff') format('woff') }  
+body {background-color: black;}
+
+h1 { color: #E9501D; font-family: LOGO; font-size: 80pt; margin: 0; text-indent: 0px; }
+.header {display: flex; flex-direction: row; justify-content: center;} 
+.block0 {display: flex; flex-direction: row; justify-content: space-between;}
+nav {display: flex; flex-direction: row; justify-content: space-between;}
+.block {display: flex; flex-direction: column;}
+.kl1 {display: flex; flex-direction: row;  flex-wrap: wrap;}
+.kl {
+	cursor: pointer;
+	border-radius: 9px;
+	background-color: white;
+	text-decoration: none;
+    color: black; 
+	font-family: TEXT; 
+	font-size: 13pt; 
+	margin: 0;
+	text-align: center;
+	padding: 10px;
+	margin-right: 5px;
+}
+
+
+main{display: flex; flex-direction: row;  justify-content: center;}
+.article {display: flex; flex-direction: row;  width: 700px;  background-color: #212629; border-radius: 59px; flex-wrap: wrap;}
+.line {display: flex; flex-wrap: wrap; justify-content: center;}
+.block1 {display: flex; flex-direction: column; justify-content: center; align-self: baseline; padding:20px}
+h2 {color: white; font-family: NAME; font-size: 30pt; margin: 0; text-indent: 25px; text-align: justify; padding-top: 36px; padding-bottom: 20px;}
+h3 {color: white; font-family: NAME; font-size: 20pt; margin: 0; text-indent: 25px; text-align: justify;}
+p {color: white; font-family: TEXT; font-size: 15pt; margin: 0; text-indent: 25px; text-align: center;}
+.block2 { display: flex; flex-direction: row; padding:20px}
+.block3 { display: flex; flex-direction: row; align-items: flex-start; padding:20px;}
+.block4 { display: flex; flex-direction: column; padding:20px}
+h4 {color: white; font-family: TEXT; font-size: 18pt; margin: 0; text-indent: 25px; text-align: left; text-indent: 0px;}
+.stock {color: white; font-family: TEXT; font-size: 13pt; margin: 0; text-indent: 25px; text-align: left; text-indent: 0px;}
+
+
+.section3  {margin-left: 20px; display: flex; flex-direction: column; border-radius: 59px 59px 0px 0px; background-color: #212629; flex-wrap: wrap; padding-bottom: 20px;}
+.section4  {margin-left: 20px; margin-top: 30px; display: flex; flex-direction: column; border-radius: 0px 0px 59px 59px; background-color: #212629; flex-wrap: wrap; padding-bottom: 20px; }
+.navigation {display: flex; flex-direction: column; margin-left: 20px; margin-right: 20px;  padding-top: 36px;}
+a[data-style="true"]:link { color: white; font-family: TEXT; font-size: 15pt; margin-left: 20px; margin-right: 20px; text-align: justify; text-decoration: none; }
+a[data-style="true"]:visited { color: white; font-family: TEXT; font-size: 15pt; margin-left: 20px; margin-right: 20px; text-align: justify; text-decoration: none; }
+a[data-style="true"]:hover {  color: #E9501D }
+a[data-style="true"]:active { color: #8A3B3B }
+.advertisement {display: flex; flex-direction: column; padding-top: 36px; padding: 30px; justify-content: center;}
+.stock1 {color: white; font-family: TEXT; font-size: 15pt; margin: 0; text-indent: 25px; }
+
+.f0{display: flex; flex-direction: row; justify-content: center; padding-top: 20px; }
+.footer {display: flex; flex-direction: column; justify-content: flex-start;}
+.textfooter {color: #9D9D9C; font-family: TEXT; font-size: 15pt; margin: 0; text-align: left; }
+.f1{display: flex; flex-direction: column; justify-content: flex-start;}
+.f2{display: flex; flex-direction: row; justify-content: flex-start; padding-left: 50px; flex-wrap: wrap;}
+.f3{display: flex; flex-direction: column; justify-content: flex-start;} 
